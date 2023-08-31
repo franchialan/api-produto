@@ -1,0 +1,13 @@
+mongodb:
+  tag: 5.0.5
+  credentials:
+    userName: mongouser
+    userPassword: mongopwd
+  databaseName: admin
+  
+api:
+  image: abricioveronez/api-produto:v1
+  serviceType: LoadBalancer
+  ingress:
+    enabled: false
+    hosts: []
